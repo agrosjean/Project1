@@ -1,0 +1,154 @@
+{
+    "bars": [
+        {
+            "id": 1,
+            "category": "Jazz Bar",
+            "name": "The Blue Note",
+            "address": "131 W 3rd St",
+            "Hours": "6pm - 12am",
+            "Rating": "4.4",
+            "Price": "$$$",
+            "Description": "Intimate jazz club hosting legendary musicians and also serving American cuisine."
+        },
+        {
+            "id": 2,
+            "category": "Jazz Bar",
+            "name": "Smalls Jazz Club",
+            "address": " 183 W 10th St",
+            "Hours": "5:30pm - 12am",
+            "Rating": "4.6",
+            "Price": "$$",
+            "Description": "Established in 1994, it earned a reputation in the 1990s as a 'hotbed for New York's jazz talent' with a well-deserved reputation as one of the best places in the city to see rising talent in the New York jazz scene."
+        },
+        {
+            "id": 3,
+            "category": "Jazz Bar",
+            "name": "Mezzrow",
+            "address": "131 W 3rd St",
+            "Hours": "6pm - 12am",
+            "Rating": "4.4",
+            "Price": "$$$",
+            "Description": "Mezzrow jazz club is a place dedicated to jazz music and the culture of Greenwich Village and New York City. it features special cocktails made with our house-made infusions and an extensive wine list."
+        },
+        {
+            "id": 4,
+            "category": "Jazz Bar",
+            "name": "Village Vanguard",
+            "address": "178 7th Ave S",
+            "Hours": "7pm - 12am",
+            "Rating": "4.7",
+            "Price": "$$",
+            "Description": "The club was opened on February 22, 1935, by Max Gordon. Originally, the club presented folk music and beat poetry, but it became primarily a jazz music venue in 1957. It has hosted many highly renowned jazz musicians since then, and today is the oldest operating jazz club in New York City."
+        },
+        {
+            "id": 5,
+            "category": "Jazz Bar",
+            "name": "The Flatiron Room",
+            "address": "37 W 26th St",
+            "Hours": "5pm - 12am",
+            "Rating": "4.6",
+            "Price": "$$$",
+            "Description": "The Flatiron Room is an award winning whiskey bar. We offer a seasonal menu of fine dining to compliment our large selection of whiskey from around the world. Stop in any night we are open to catch a live performance from NYC's jazz scene."
+        },
+        {
+            "id": 6,
+            "category": "Pubs",
+            "name": "O'Hara's",
+            "address": "120 Cedar St",
+            "Hours": "11am - 2am",
+            "Rating": "4.6",
+            "Price": "$$",
+            "Description": "O'Hara's Pub is a traditional Irish tavern. One of the most important things about a bar like this one is the beer selection. O'Hara's doesn't disappoint, as there are 100 beers here on tap, plus another 30 on tap. These range from local craft brewers to famous international brands."
+        },
+        {
+            "id": 7,
+            "category": "Pubs",
+            "name": "The Dead Rabbit NYC",
+            "address": "30 Water St",
+            "Hours": "4pm - 2am",
+            "Rating": "4.6",
+            "Price": "$$",
+            "Description": "Dead Rabbit is a three-floor temple of fine drinks. The tri-level bar features a tap room (with a comfortable Irish pub feel and sizable whiskey list) on the ground floor, and a parlor serving cocktails on the second. The top level is used for private events."
+        },
+        {
+            "id": 8,
+            "category": "Pubs",
+            "name": "Hudson Hound",
+            "address": "575 Hudson St",
+            "Hours": "4pm - 2am",
+            "Rating": "4.5",
+            "Price": "$$",
+            "Description": "A MODERN IRISH RESTAURANT & BAR bringing contemporary touches to traditional fare and creating new, innovative dishes, our goal is to serve you high quality, in season, fresh ingredients, using as many local producers as possible."
+        },
+        {
+            "id": 9,
+            "category": "College Bars",
+            "name": "Off the Wagon",
+            "address": "109 MacDougal St",
+            "Hours": "12am - 4am",
+            "Rating": "4.2",
+            "Price": "$$",
+            "Description": "Opened in 1998, Off The Wagon has become a Greenwich Village staple. The two-story layout, lightning-fast bartenders, and unbeatable drink specials hold a place in just about every New Yorker's heart. With its proximity to NYU and several other colleges."
+        },
+        {
+            "id": 10,
+            "category": "College Bars",
+            "name": "Keybar",
+            "address": "432 E 13th St",
+            "Hours": "4pm - 4am",
+            "Rating": "4.4",
+            "Price": "$$",
+            "Description": "East Village neighborhood bar with indoor & outdoor service. Enjoy our beautiful outdoor cabana. We have 12 quality drafts, more than 30 signature cocktails including spicy hot drinks, shots and our famous Rolo shot."
+        },
+        {
+            "id": 11,
+            "category": "College Bars",
+            "name": "Down the Hatch",
+            "address": "179 West 4th Street",
+            "Hours": "4pm - 2am",
+            "Rating": "4.3",
+            "Price": "$",
+            "Description": "Specials every day, sports, and the atmosphere of a memorable night are what you get when you come to Down the Hatch. Located in Greenwich Village for 30 years, this Atomic Wings serving sports bar has seen it all."
+        },
+        {
+            "id": 12,
+            "category": "RoofTop Bars",
+            "name": "Good Behavior",
+            "address": "44 W 29th St",
+            "Hours": "4pm - 1am",
+            "Rating": "4.5",
+            "Price": "$$",
+            "Description": "Good Behavior is a small indoor/outdoor cocktail bar on the roof of the Made Hotel in Nomad, with a tropical-themed dance floor and two balconies."
+        },
+        {
+            "id": 13,
+            "category": "RoofTop Bars",
+            "name": "The Bar",
+            "address": "28 W 53rd St",
+            "Hours": "4pm - 11pm",
+            "Rating": "4.6",
+            "Price": "$$$$",
+            "Description": "The Bar takes its visual cues from great American long bars of decades past, glamorous ballrooms of French hôtels particuliers and the royal stables at Versailles with distinctive barrel vaulting and natural-wood walls defining much of the space."
+        },
+        {
+            "id": 14,
+            "category": "RoofTop Bars",
+            "name": "Temple Court",
+            "address": "5 Beekman St",
+            "Hours": "5:30pm - 10pm",
+            "Rating": "4.6",
+            "Price": "$$$$",
+            "Description": "Where locals & visitors alike can experience a version of old New York centered around Tom Colicchio's signature cooking style & the inventive handcrafted cocktails created by our resident bar team."
+        },
+        {
+            "id": 15,
+            "category": "RoofTop Bars",
+            "name": "Rainbow Room",
+            "address": "30 Rockefeller Plaza 65th Floor",
+            "Hours": "4:30pm - 12am",
+            "Rating": "4.6",
+            "Price": "$$$$",
+            "Description": "Rainbow Room is the original home of New York glamour and entertainment. A place where the food, the service, and the skyline all come together to create incomparable, unforgettable experiences."
+        }
+    ]
+}
