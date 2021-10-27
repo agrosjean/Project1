@@ -1,6 +1,8 @@
 // Establish Globale Variable / Elements
 const jazzBar = document.getElementById('jazz-bar')
-const showInfo = document.getElementById('details')
+const pub = document.getElementById ('pubs')
+const collegeBar = document.getElementById ('college-bars')
+const rooftopBar = document.getElementById ('rooftop-bars')
 
 
 jazzBar.addEventListener('click', handleJazzClick)
@@ -13,6 +15,7 @@ function handleJazzClick() {
         .then(response => response.json())
         .then(barsArray => {
             barsArray.forEach(bar => {
+                //create a div --> name a class element
                 const nameJ = document.createElement('p')
                 nameJ.textContent = bar.name
                 const addressJ = document.createElement('p')
@@ -33,6 +36,103 @@ function handleJazzClick() {
             })
         })
 }
+
+
+pub.addEventListener('click', handlePubsClick)
+
+//fetch Pubs Api
+
+function handlePubsClick () {
+    fetch('http://localhost:3000/pubs')
+    .then( response => response.json())
+    .then (barsPubArray => {
+        barsPubArray.forEach (bar => {
+            const nameP = document.createElement('p')
+            nameP.textContent = bar.name
+            const addressP = document.createElement('p')
+            addressP.textContent = bar.address
+            const hoursP = document.createElement('p')
+            hoursP.textContent = bar.Hours
+            const ratingP = document.createElement('p')
+            ratingP.textContent = bar.Rating
+            const priceP = document.createElement('p')
+            priceP.textContent = bar.Price
+            const descriptionP = document.createElement('p')
+            descriptionP.textContent = bar.Description
+
+            pub.append (nameP, addressP, hoursP, ratingP, priceP, descriptionP)
+
+        })
+    }) 
+
+}
+//college bar section
+
+collegeBar.addEventListener('click', handleCollegeClick)
+
+function handleCollegeClick () {
+    fetch('http://localhost:3000/college-bars')
+    .then( response => response.json())
+    .then (barsCollegeArray => {
+        barsCollegeArray.forEach (bar => {
+            const nameC = document.createElement('p')
+            nameC.textContent = bar.name
+            const addressC = document.createElement('p')
+            addressC.textContent = bar.address
+            const hoursC = document.createElement('p')
+            hoursC.textContent = bar.Hours
+            const ratingC = document.createElement('p')
+            ratingC.textContent = bar.Rating
+            const priceC = document.createElement('p')
+            priceC.textContent = bar.Price
+            const descriptionC = document.createElement('p')
+            descriptionC.textContent = bar.Description
+
+            collegeBar.append (nameC, addressC, hoursC, ratingC, priceC, descriptionC)
+
+        })
+    }) 
+
+}
+
+//rooftop bar section
+
+rooftopBar.addEventListener ('click', handleRooftopClick)
+function handleRooftopClick () {
+    fetch (' http://localhost:3000/rooftop-bars')
+    .then ( response => response.json ())
+    .then ( barsRooftopArray => {
+        barsRooftopArray.forEach ( bar => {
+            const nameR = document.createElement ('p')
+            nameR.textContent = bar.name
+            const addressR = document.createElement ('p')
+            addressR.textContent = bar.address
+            const hoursR = document.createElement ('p')
+            hoursR.textContent = bar.Hours
+            const ratingR = document.createElement ('p')
+            ratingR.textContent = bar.Rating
+            const priceR = document.createElement ('p')
+            priceR.textContent = bar.Price
+            const descriptionR = document.createElement ('p')
+            descriptionR.textContent = bar.Description 
+
+            rooftopBar.append (nameR,addressR,hoursR,ratingR,priceR,descriptionR )
+        
+        })
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
