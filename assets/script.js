@@ -17,8 +17,18 @@ function handleJazzClick() {
                 nameJ.textContent = bar.name
                 const addressJ = document.createElement('p')
                 addressJ.textContent = bar.address
+                const hoursJ = document.createElement('p')
+                hoursJ.textContent = bar.Hours
+                const ratingJ = document.createElement('p')
+                ratingJ.textContent = bar.Rating
+                const priceJ = document.createElement('p')
+                priceJ.textContent = bar.Price
+                const descriptionJ = document.createElement('p')
+                descriptionJ.textContent = bar.Description
 
-                jazzBar.append(nameJ, addressJ)
+                jazzBar.append(nameJ, addressJ, hoursJ, ratingJ, priceJ, descriptionJ)
+
+                
 
             })
         })
