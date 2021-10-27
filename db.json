@@ -1,5 +1,5 @@
 {
-    "bars": [
+    "jazz": [
         {
             "id": 1,
             "category": "Jazz Bar",
@@ -49,7 +49,9 @@
             "Rating": "4.6",
             "Price": "$$$",
             "Description": "The Flatiron Room is an award winning whiskey bar. We offer a seasonal menu of fine dining to compliment our large selection of whiskey from around the world. Stop in any night we are open to catch a live performance from NYC's jazz scene."
-        },
+        }
+    ],
+    "pubs": [
         {
             "id": 6,
             "category": "Pubs",
@@ -79,7 +81,9 @@
             "Rating": "4.5",
             "Price": "$$",
             "Description": "A MODERN IRISH RESTAURANT & BAR bringing contemporary touches to traditional fare and creating new, innovative dishes, our goal is to serve you high quality, in season, fresh ingredients, using as many local producers as possible."
-        },
+        }
+    ],
+    "college-bars": [
         {
             "id": 9,
             "category": "College Bars",
@@ -109,7 +113,9 @@
             "Rating": "4.3",
             "Price": "$",
             "Description": "Specials every day, sports, and the atmosphere of a memorable night are what you get when you come to Down the Hatch. Located in Greenwich Village for 30 years, this Atomic Wings serving sports bar has seen it all."
-        },
+        }
+    ],
+    "rooftop-bars": [
         {
             "id": 12,
             "category": "RoofTop Bars",
