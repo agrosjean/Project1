@@ -1,9 +1,9 @@
 // Establish Globale Variable / Elements
 const jazzBar = document.getElementById('jazz-bar')
-const showInfo = document.getElementById('details')
 
 
 jazzBar.addEventListener('click', handleJazzClick)
+
 
 // Fetch the API individually
 
@@ -12,7 +12,10 @@ function handleJazzClick() {
     fetch('http://localhost:3000/jazz')
         .then(response => response.json())
         .then(barsArray => {
+            jazzBar.innerHTML = '<img src="./src/Jazz Bar.png" alt="Jazz Bar" style="width:500px;height: 400px;">'
             barsArray.forEach(bar => {
+                const detailsJ = document.createElement('div')
+                detailsJ.classList.add('infoJ')
                 const nameJ = document.createElement('p')
                 nameJ.textContent = bar.name
                 const addressJ = document.createElement('p')
@@ -26,14 +29,19 @@ function handleJazzClick() {
                 const descriptionJ = document.createElement('p')
                 descriptionJ.textContent = bar.Description
 
-                jazzBar.append(nameJ, addressJ, hoursJ, ratingJ, priceJ, descriptionJ)
+                detailsJ.append(nameJ, addressJ, hoursJ, ratingJ, priceJ, descriptionJ)
+                jazzBar.append(detailsJ)
 
-                
+
 
             })
         })
 }
 
+function barDetailts(info) {
+
+
+}
 
 
 
