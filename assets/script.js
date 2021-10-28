@@ -71,7 +71,7 @@ function handlePubsClick() {
 
             })
         })
-
+ 
 }
 //college bar section
 
