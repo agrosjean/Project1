@@ -17,6 +17,8 @@ function handleJazzClick() {
         .then(barsArray => {
             jazzBar.innerHTML = '<img src="./src/Jazz Bar.png" alt="Jazz Bar" style="width:500px;height: 400px;">'
             barsArray.forEach(bar => {
+
+
                 const detailsJ = document.createElement('div')
                 detailsJ.classList.add('infoJ')
                 //create a div --> name a class element
