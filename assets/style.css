@@ -7,3 +7,15 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  #jazz-bar {
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+
+  #jazz-bar:hover {
+    background-color: green;
+
+  }
