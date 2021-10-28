@@ -15,7 +15,7 @@ function handleJazzClick() {
     fetch('http://localhost:3000/jazz')
         .then(response => response.json())
         .then(barsArray => {
-            jazzBar.innerHTML = '<img src="./src/Jazz Bar.png" alt="Jazz Bar" style="width:500px;height: 400px;">'
+            jazzBar.innerHTML = '<img src="./src/jazz.png" alt="Jazz Bar" style="width:500px;height: 400px;">'
             barsArray.forEach(bar => {
                 const detailsJ = document.createElement('div')
                 detailsJ.classList.add('infoJ')
@@ -42,10 +42,7 @@ function handleJazzClick() {
         })
 }
 
-function barDetailts(info) {
 
-
-}
 
 pub.addEventListener('click', handlePubsClick)
 
@@ -55,6 +52,7 @@ function handlePubsClick() {
     fetch('http://localhost:3000/pubs')
         .then(response => response.json())
         .then(barsPubArray => {
+            pub.innerHTML = '<img src="./src/pub.png" alt= "Pubs" style="width:500px;height: 400px;">'
             barsPubArray.forEach(bar => {
                 const nameP = document.createElement('p')
                 nameP.textContent = bar.name
@@ -83,6 +81,7 @@ function handleCollegeClick() {
     fetch('http://localhost:3000/college-bars')
         .then(response => response.json())
         .then(barsCollegeArray => {
+            collegeBar.innerHTML = '<img src="./src/college - picture.png" alt= "College Bar" style="width:500px;height: 400px;">'
             barsCollegeArray.forEach(bar => {
                 const nameC = document.createElement('p')
                 nameC.textContent = bar.name
@@ -111,6 +110,7 @@ function handleRooftopClick() {
     fetch(' http://localhost:3000/rooftop-bars')
         .then(response => response.json())
         .then(barsRooftopArray => {
+            rooftopBar.innerHTML = '<img src="./src/rooftop.png" alt= "Rooftop Bar" style="width:500px;height: 400px;">'
             barsRooftopArray.forEach(bar => {
                 const nameR = document.createElement('p')
                 nameR.textContent = bar.name
